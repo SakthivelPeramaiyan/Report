@@ -1,0 +1,124 @@
+
+/* Table 1 Style */
+table.table1{
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.4em;
+    font-style: normal;
+    border-collapse:separate;
+}
+.table1 thead th{
+    padding:15px;
+    color:#fff;
+    text-shadow:1px 1px 1px #7cc576;
+    border:6px solid #FFFFFF;
+    border-bottom:3px solid #7cc576;
+    background-color:#7cc576;
+    background:-webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.02, rgb(124, 197, 118)),
+        color-stop(0.51, rgb(124, 197, 118)),
+        color-stop(0.87, rgb(124, 197, 118))
+        );
+    background: -moz-linear-gradient(
+        center bottom,
+        rgb(123,192,67) 2%,
+        rgb(124, 197, 118) 51%,
+        rgb(158,217,41) 87%
+        );
+    -webkit-border-top-left-radius:0px;
+    -webkit-border-top-right-radius:0px;
+    -moz-border-radius:0px 0px 0px 0px;
+    border-top-left-radius:0px;
+    border-top-right-radius:0px;
+}
+.table1 thead th:empty{
+    background:transparent;
+    border:none;
+}
+.table1 tbody th{
+    color:#fff;
+    text-shadow:1px 1px 1px #568F23;
+    background-color:#7cc576;
+    border:6px solid #FFFFFF;
+    border-right:0px solid #9ED929;
+    padding:0px 10px;
+    background:-webkit-gradient(
+        linear,
+        left bottom,
+        right top,
+        color-stop(0.02, rgb(124, 197, 118)),
+        color-stop(0.51, rgb(124, 197, 118)),
+        color-stop(0.87, rgb(124, 197, 118))
+        );
+    background: -moz-linear-gradient(
+        left bottom,
+        rgb(158,217,41) 2%,
+        rgb(139,198,66) 51%,
+        rgb(123,192,67) 87%
+        );
+    -moz-border-radius:0px 0px 0px 0px;
+    -webkit-border-top-left-radius:0px;
+    -webkit-border-bottom-left-radius:0px;
+    border-top-left-radius:0px;
+    border-bottom-left-radius:0px;
+}
+.table1 tfoot td{
+    color: #9CD009;
+    font-size:32px;
+    text-align:center;
+    padding:10px 0px;
+    text-shadow:1px 1px 1px #444;
+}
+.table1 tfoot th{
+    color:#666;
+}
+.table1 tbody td{
+    padding:10px;
+    text-align:center;
+    background-color:#DEF3CA;
+    border: 6px solid #FFFFFF;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-radius:0px;
+    color:#666;
+    text-shadow:1px 1px 1px #fff;
+}
+.table1 tbody span.check::before{
+    content : url(../images/check0.png)
+}
+
+
+
+
+.containe {
+  background: #ffff;
+ 
+  margin: auto;
+  right: 0;
+  top: 0;
+  width: 650px;
+}
+
+.inner {
+  background: #ffff;
+  position: relative;
+}
+
+.tick{
+    color: #9CD009;
+    font-size:32px;
+    text-align:center;
+    padding:10px 0px;
+    text-shadow:1px 1px 1px #444;
+}
+.cross{
+    color: #FF0000;
+    font-size:32px;
+    text-align:center;
+    padding:10px 0px;
+    text-shadow:1px 1px 1px #444;
+}
